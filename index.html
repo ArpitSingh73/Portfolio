@@ -8,8 +8,10 @@
     <link rel="stylesheet" , href="mediaqueries.css" />
   </head>
   <body>
+    <!-- web nav -->
+
     <nav id="desktop-nav">
-      <div class="logo">Arpit</div>
+      <div class="logo">Arpit Singh</div>
       <div>
         <ul class="nav-links">
           <li><a href="#"> About</a></li>
@@ -20,8 +22,9 @@
       </div>
     </nav>
 
+    <!-- mobile nav -->
     <nav id="hamburger-nav">
-      <div class="logo">Arpit</div>
+      <div class="logo">Arpit Singh</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="togglemenu()">
           <span></span>
@@ -37,6 +40,45 @@
         </div>
       </div>
     </nav>
+
+    <!-- Section  -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile picture" />
+      </div>
+       <span class="line"></span>
+      <div class="section__text">
+        <p class="section__text_p1">Hello I'm</p>
+        <h1 class="title">Arpit Singh</h1>
+        <p class="section__text_p2">A Developer | An Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div class="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="my linkedin"
+            class="icon"
+            onclick="location.href='https://linkedin.com'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="my github"
+            class="icon"
+            onclick="location.href='https://github.com'"
+          />
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>
