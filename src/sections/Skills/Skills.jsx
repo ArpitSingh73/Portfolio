@@ -17,15 +17,19 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="TailWind CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="MongoDB" />
+        <SkillList src={checkMarkIcon} skill="Postgres" />
         <SkillList src={checkMarkIcon} skill="Express.js" />
         <SkillList src={checkMarkIcon} skill="Node.js" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="FastAPI" />
         <SkillList src={checkMarkIcon} skill="Scikit-learn" />
         <SkillList src={checkMarkIcon} skill="Machine Learning" />
+        <SkillList src={checkMarkIcon} skill="Knowledge Graph" />
         <SkillList src={checkMarkIcon} skill="GenAI" />
+        <SkillList src={checkMarkIcon} skill="neo4j" />
       </div>
       <hr />
       <div className={styles.skillList}>
